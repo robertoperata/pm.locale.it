@@ -1,1 +1,18 @@
-Hello World!
+ <html>
+     <head>
+         <title>Creazione Progetto</title>
+         <script type="text/javascript" href="{{ asset('assets/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+         <link rel="stylesheet" href="{{ asset('assets/bootstrap/dist/css/bootstrap.min.css') }}" />
+         </head>
+     <body>
+     <div class="container">
+         Nome del sito da creare
+         {{ form_start(form) }}
+         {{ form_widget(form) }}
+         {{ form_end(form) }}
+     </div>
+
+     </body>
+
+ </html>
+
