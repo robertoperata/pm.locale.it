@@ -1,0 +1,4 @@
+services:
+#    priz.example:
+#        class: PrizBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
